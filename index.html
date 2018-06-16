@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,20 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New York Times Search</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <form>
-        <label for="search">Search Term</label>
-        <input type="text" id="search">
-        <label for="numRecords">Number of Records to Retrieve</label>
-        <input type="text" id="numRecords">
-        <label for="startYear">Start Year</label>
-        <input type="text" id="startYear"> 
-        <label for="endYear">Start Year</label>
-        <input type="text" id="endYear"> 
-        <button type="button" id="search_button">Search</button>
-        <button type="button" id="clearResults">Clear Results</button>
-    </form>
-    
-</body>
+  <body>
+    <section class="heading">
+      New York Times Archives
+    </section>
+
+    <div class="container">
+
+      <form class="form">
+          <div class="search">
+            <label for="search">Search Term</label>
+            <input type="text" id="search">
+          </div>
+          <br>
+          <div class="records">
+            <label for="numRecords">Number of Records to Retrieve</label>
+            <input type="text" id="numRecords">
+          </div>
+          <br>
+          <div class="startyear">
+            <label for="startYear">Start Year</label>
+            <input type="text" id="startYear">
+          </div>
+          <br>
+          <div class="endyear">
+            <label for="endYear">End Year</label>
+            <input type="text" id="endYear">
+          </div>
+          <br>
+          <button type="button" id="search_button">Search</button>
+          <button type="button" id="clearResults">Clear Results</button>
+      </form>
+
+    </div>
+
+  </body>
 </html>
